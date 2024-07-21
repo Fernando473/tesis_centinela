@@ -23,7 +23,7 @@ En este sprint denominado el \textit{"Sprint 0"}, se definieron aspectos fundame
         En la Figura \ref{fig:azure-devops-project} se muestra el proyecto en Azure DevOps.
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.5\linewidth]{02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png}
+            \includegraphics[width=0.5\linewidth]{../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png}
             \caption{Proyecto en Azure DevOps}
             \label{fig:azure-devops-project}
         \end{figure}
@@ -40,14 +40,14 @@ En este sprint denominado el \textit{"Sprint 0"}, se definieron aspectos fundame
 
         \begin{figure}[H]
             \centering
-            \includegraphics{02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png}
+            \includegraphics{../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png}
             \caption{Arquitectura Hexagonal aplicada en el modulo del motor de búsqueda}
             \label{fig:hexagonal-architecture-example-backend}
         \end{figure}
         \item \textbf{Frontend}: Basándonos en el concepto de puertos y adaptadores, en el frontend también hemos optado por  implementar la Arquitectura Hexagonal \cite{ARQUITECTURA-HEXAGONAL} como patrón de arquitectura, con algunas adaptaciones específicas para este contexto. Dado que el frontend se enfoca en la parte gráfica, el adaptador se denominará "presentación", donde se gestionará toda la interfaz gráfica. Esta capa de presentación será el punto de entrada hacia el núcleo (core) de la aplicación frontend, facilitando así una separación clara entre la lógica de negocio y la interfaz de usuario, y promoviendo una estructura modular y fácilmente mantenible (Figura \ref{fig:hexagonal-architecture-example-frontend}.)
         \begin{figure}[H]
             \centering
-            \includegraphics{02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png}
+            \includegraphics{../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png}
             \caption{Arquitectura hexagonal aplicada al modulo de consenso}
             \label{fig:hexagonal-architecture-example-frontend}
         \end{figure}
