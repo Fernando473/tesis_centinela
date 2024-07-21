@@ -1,0 +1,11 @@
+La arquitectura Hexagonal o también conocida como la arquitectura de puertos y adaptadores, es un patrón de arquitectura de software que nos ayuda a tener un código mantenible, escalable y testable. Su característica principal es separar la lógica del dominio y que la misma no se acople a nada externo como frameworks, bases de datos, etc.
+
+La arquitectura hexagonal se divide de 3 capas:
+\begin{enumerate}
+    \item \textbf{Infraestructura}: También conocida como puertos es la capa que actúa como el punto de entrada hacia la aplicación. La misma que permite la comunicación desde y hacia el exterior.
+    \item \textbf{Aplicación}: También conocida como adaptadores, es el puente entre la capa de dominio y la capa de infraestructura. Esta capa sirve para transformar la comunicación entre actores externos (Capa de Infraestructura) y la lógica de la aplicación (Capa de Dominio), consiguiendo así que ambas capas sean independientes.
+    \item \textbf{Dominio}: Esta capa es el core de la aplicación, la cual va a contener toda la información y lógica del negocio.   
+\end{enumerate}
+
+
+Estas capas vienen acompañadas de una regla de dependencia que va desde afuera hacia adentro, teniendo en cuenta que la capa más interna es la del dominio y la más externa es la infraestructura. La regla de dependencia es muy simple. 
