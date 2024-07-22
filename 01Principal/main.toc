@@ -18,11 +18,15 @@
 \contentsline {section}{\numberline {2.1}Sprint 0}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Sprint 1}{12}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Introducción}{12}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Planificación}{12}{subsection.2.2.2}%
-\contentsline {chapter}{\numberline {3}RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Resultados}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Conclusiones}{15}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Recomendaciones}{15}{section.3.3}%
-\contentsline {chapter}{\numberline {4}REFERENCIAS BIBLIOGRÁFICAS}{16}{chapter.4}%
-\contentsline {chapter}{\numberline {A}Apendice A}{17}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Apendice B}{19}{appendix.Alph2}%
+\contentsline {subsection}{\numberline {2.2.2}Objetivos del Sprint}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Planificación}{13}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Implementación}{15}{subsection.2.2.4}%
+\contentsline {subsubsection}{Página de inicio}{15}{subsection.2.2.4}%
+\contentsline {subsubsection}{Página de resultados}{18}{figure.2.7}%
+\contentsline {chapter}{\numberline {3}RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Resultados}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Conclusiones}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Recomendaciones}{20}{section.3.3}%
+\contentsline {chapter}{\numberline {4}REFERENCIAS BIBLIOGRÁFICAS}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {A}Apendice A}{22}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Apendice B}{24}{appendix.Alph2}%
