@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.20)  21 JUL 2024 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.20)  22 JUL 2024 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1261,7 +1261,7 @@ Underfull \hbox (badness 5802) in paragraph at lines 7--7
 \T1/phv/m/n/10.95 pa-ra web y cien-cia de da-tos
  []
 
-<../02Figures/02Chapter/pycharm-logo.png, id=266, 1027.84pt x 1027.84pt>
+<../02Figures/02Chapter/pycharm-logo.png, id=281, 1027.84pt x 1027.84pt>
 File: ../02Figures/02Chapter/pycharm-logo.png Graphic file (type png)
 <use ../02Figures/02Chapter/pycharm-logo.png>
 Package pdftex.def Info: ../02Figures/02Chapter/pycharm-logo.png  used on input line 7.
@@ -1269,7 +1269,7 @@ Package pdftex.def Info: ../02Figures/02Chapter/pycharm-logo.png  used on input 
 
 LaTeX Warning: Citation 'DRFweb' on page 6 undefined on input line 9.
 
-<../02Figures/02Chapter/drf-logo.png, id=268, 702.625pt x 467.7475pt>
+<../02Figures/02Chapter/drf-logo.png, id=283, 702.625pt x 467.7475pt>
 File: ../02Figures/02Chapter/drf-logo.png Graphic file (type png)
 <use ../02Figures/02Chapter/drf-logo.png>
 Package pdftex.def Info: ../02Figures/02Chapter/drf-logo.png  used on input line 9.
@@ -1315,7 +1315,7 @@ LaTeX Warning: Citation 'AZURE-DEVOPS' on page 9 undefined on input line 22.
 
 LaTeX Warning: Citation 'AZURE-DEVOPS' on page 9 undefined on input line 22.
 
-<../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png, id=289, 1169.11781pt x 584.1825pt>
+<../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png, id=304, 1169.11781pt x 584.1825pt>
 File: ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png Graphic file (type png)
 <use ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png>
 Package pdftex.def Info: ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png  used on input line 26.
@@ -1326,7 +1326,7 @@ Package pdftex.def Info: ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops
 
 LaTeX Warning: Citation 'ARQUITECTURA-HEXAGONAL' on page 10 undefined on input line 37.
 
-<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png, id=302, 208.3785pt x 209.583pt>
+<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png, id=317, 208.3785pt x 209.583pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png  used on input line 43.
@@ -1342,7 +1342,7 @@ l.47         \item \textbf
 
 LaTeX Warning: Citation 'ARQUITECTURA-HEXAGONAL' on page 11 undefined on input line 47.
 
-<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png, id=310, 216.81pt x 213.79875pt>
+<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png, id=325, 216.81pt x 213.79875pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png  used on input line 50.
@@ -1385,22 +1385,22 @@ Underfull \hbox (badness 1442) in paragraph at lines 14--15
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 19--19
+Underfull \hbox (badness 1237) in paragraph at lines 18--18
 \T1/phv/m/n/10.95 ti-ga-do-res que ten-gan co-la-
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 19--19
+Underfull \hbox (badness 5260) in paragraph at lines 18--18
 \T1/phv/m/n/10.95 bre sus in-ves-ti-ga-cio-nes y
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 24--25
+Underfull \hbox (badness 1742) in paragraph at lines 23--24
 []\T1/phv/m/n/10.95 Componente de pa-gi-na-ción
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 25--26
+Underfull \hbox (badness 5119) in paragraph at lines 24--25
 []\T1/phv/m/n/10.95 Enrutamiento pa-ra re-di-ri-gir
  []
 
@@ -1410,90 +1410,163 @@ Underfull \hbox (badness 5119) in paragraph at lines 25--26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.33 \end{table}
+l.32 \end{table}
                  <../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png>])
 
 [13]
-<../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png, id=329, 496.85625pt x 367.97475pt>
-File: ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png Graphic file (type png)
-<use ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png>
-Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png  used on input line 19.
-(pdftex.def)             Requested size: 396.91325pt x 293.95908pt.
+<../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png, id=345, 543.2295pt x 367.97475pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png  used on input line 21.
+(pdftex.def)             Requested size: 380.25806pt x 257.58057pt.
 
 
 [14
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.22 \end{figure}
+l.24 \end{figure}
                  ]
-<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png, id=336, 179.4705pt x 395.67825pt>
-File: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png Graphic file (type png)
-<use ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png>
-Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png  used on input line 37.
-(pdftex.def)             Requested size: 161.52194pt x 356.10713pt.
+<../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png, id=351, 542.025pt x 263.18324pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png  used on input line 27.
+(pdftex.def)             Requested size: 379.4149pt x 184.227pt.
+<../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png, id=353, 496.85625pt x 367.97475pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png  used on input line 36.
+(pdftex.def)             Requested size: 447.16649pt x 331.17421pt.
+
+Overfull \hbox (6.14876pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
+
 
 
 [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.40 \end{figure}
-                  <../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png>]
-<../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png, id=344, 205.36725pt x 164.41425pt>
-File: ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png Graphic file (type png)
-<use ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png>
-Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png  used on input line 51.
-(pdftex.def)             Requested size: 164.29402pt x 131.53156pt.
-
-
-[16
+l.40 
+     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.55 
-      <../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png>]
-<../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg, id=351, 1644.1425pt x 1712.3975pt>
-File: ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg Graphic file (type jpg)
-<use ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg>
-Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg  used on input line 63.
-(pdftex.def)             Requested size: 263.06818pt x 273.9892pt.
+l.40 
+      <../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png> <../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png>]
 
-
-[17
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.73 
-     
+l.51 
+      <../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png>]
+<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png, id=366, 179.4705pt x 395.67825pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png  used on input line 54.
+(pdftex.def)             Requested size: 161.52194pt x 356.10713pt.
+
+
+[17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.73 
-      <../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png> <../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg>]
-<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png, id=358, 215.00325pt x 466.74374pt>
-File: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png Graphic file (type png)
-<use ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png>
-Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png  used on input line 77.
-(pdftex.def)             Requested size: 150.50124pt x 326.71838pt.
-))
+l.65 
+      <../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png>]
+<../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png, id=374, 205.36725pt x 164.41425pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png  used on input line 68.
+(pdftex.def)             Requested size: 164.29402pt x 131.53156pt.
+<../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg, id=376, 1644.1425pt x 1712.3975pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg Graphic file (type jpg)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg  used on input line 80.
+(pdftex.def)             Requested size: 263.06818pt x 273.9892pt.
+
 
 [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.28 \chapter
-             {RESULTADOS, CONCLUSIONES Y RECOMENDACIONES} <../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png>]
+l.84 
+      <../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png>]
+<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png, id=383, 215.00325pt x 466.74374pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png  used on input line 93.
+(pdftex.def)             Requested size: 129.00293pt x 280.0484pt.
+
+
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.97 
+      <../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg>]
+<../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png, id=391, 215.00325pt x 476.37975pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png  used on input line 103.
+(pdftex.def)             Requested size: 172.00282pt x 381.10431pt.
+
+
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.107 
+       <../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png>]
+<../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png, id=399, 2089.8075pt x 636.3775pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png Graphic file (type png)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png  used on input line 112.
+(pdftex.def)             Requested size: 417.9541pt x 127.27324pt.
+
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.116 
+       <../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png>]
+<../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg, id=406, 1644.1425pt x 1194.4625pt>
+File: ../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg Graphic file (type jpg)
+<use ../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg>
+Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg  used on input line 123.
+(pdftex.def)             Requested size: 263.06818pt x 191.1179pt.
+
+
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.135 \begin{itemize}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.135 \begin{itemize}
+                      <../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png> <../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg>]
+Overfull \hbox (4.58977pt too wide) in paragraph at lines 138--139
+[]\T1/phv/b/n/10.95 Colaboración\T1/phv/m/n/10.95 : He-mos tra-ba-ja-do de ma-ne-ra co-la-bo-ra-ti-va y efi-cien-te du-ran-te es-te sprint,
+ []
+
+))
+
+[23]
 Cap\'{\i }tulo 3.
 (../04Sections/03ContentOfDocument/Conclusiones/00-Result-Conclusions-Recommends.tex (../04Sections/03ContentOfDocument/Conclusiones/01-Results.tex (../03Tables/01Chapter/C1T1_tableExample.tex)
-<../02Figures/01Chapter/C1F1_figureExample.png, id=366, 2509.375pt x 1673.25125pt>
+<../02Figures/01Chapter/C1F1_figureExample.png, id=418, 2509.375pt x 1673.25125pt>
 File: ../02Figures/01Chapter/C1F1_figureExample.png Graphic file (type png)
 <use ../02Figures/01Chapter/C1F1_figureExample.png>
 Package pdftex.def Info: ../02Figures/01Chapter/C1F1_figureExample.png  used on input line 13.
 (pdftex.def)             Requested size: 352.81552pt x 235.24931pt.
 
 
-[19
+[24
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
@@ -1502,7 +1575,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) ha
 l.17 
      ]) (../04Sections/03ContentOfDocument/Conclusiones/02-Conclusions.tex) (../04Sections/03ContentOfDocument/Conclusiones/03-Recommends.tex))) (../04Sections/04References/00-References.tex
 
-[20
+[25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1514,17 +1587,17 @@ LaTeX Warning: Empty bibliography on input line 9.
 
 ) (../04Sections/05Annexes/00-Annexes.tex
 
-[21
+[26
 
 ]
 Ap\'{e}ndice A.
 (../04Sections/05Annexes/AnexoA.tex)
 
-[22
+[27
 
 ]
 
-[23]
+[28]
 Ap\'{e}ndice B.
 (../04Sections/05Annexes/AnexoB.tex))
 Package minitoc Info: I0009
@@ -1540,7 +1613,7 @@ Package minitoc(hints) Warning: W0078
 
 
 
-[24
+[29
 
 ]
 Package minitoc(hints) Info: I0053
@@ -1556,7 +1629,7 @@ Package minitoc(hints) Warning: W0024
 
 
 
-[25] (main.aux
+[30] (main.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1570,7 +1643,7 @@ L3 programming layer <2024-05-27>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7966B39603B244A2E641522A8785B523;3879.
+(rerunfilecheck)             Checksum: 151A8AE3EBCD4261765152B5DEB41338;4131.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1581,17 +1654,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46741 strings out of 473904
- 1067828 string characters out of 5726600
- 2066572 words of memory out of 5000000
- 68661 multiletter control sequences out of 15000+600000
+ 46793 strings out of 473904
+ 1070615 string characters out of 5726600
+ 2067949 words of memory out of 5000000
+ 68702 multiletter control sequences out of 15000+600000
  611171 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,101p,1236b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (36 pages, 3694025 bytes).
+Output written on main.pdf (41 pages, 4170683 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
