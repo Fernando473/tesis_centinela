@@ -1,0 +1,35 @@
+\subsection{Introducción}
+El cuarto sprint tiene como objetivo alcanzar el estado final de Resnet,
+es decir, lograr que Centinela esté completamente funcional y lista para ser
+utilizada por los usuarios. En el contexto del motor de búsqueda,
+se espera que  Centinela sea capaz de realizar las búsquedas
+que Resnet podía realizar en su estado final, alcanzando así el nivel de funcionalidad de la versión anterior.
+\subsection{Objetivos}
+\begin{itemize}
+    \item Implementar la automatización para generar el Corpus y el Modelo de TF-IDF
+    \item Implementar la funcionalidad de búsqueda de autores relevantes dado un topico
+    \item Implementar la funcionalidad de búsqueda de articulos relevantes dado un topico
+    \item Implementar la funcionalidad para obtener la red de coautoría de un autor
+    \item Implementar la funcionalidad para obtener un Articulo dado su ID de Scopus
+    \item Implementar la funcionalidad para obtener un Autor dado su ID de Scopus
+\end{itemize}
+\subsection{Planificación}
+Para este sprint se terminaron las tareas que quedaron pendientes en el Sprint 1 (Ver sección \ref{chapter02-section02-sprint1})  y en el Sprint 2 (Ver sección \ref{chapter02-section02-sprint2}).
+En la tabla \ref{C2T4:Historias de Usuario del Sprint 4} se presentan las historias de usuario que se abordarán en este sprint con sus respectivas tareas.
+\input{../03Tables/02Chapter/C2T4_huSprint4.tex}
+
+Los criterios de aceptación para las historias de usuario HU-SE-01, HU-SE-03 y HU-SE-04 han sido definidos y se pueden consultar en las siguientes figuras: Figura \ref{fig:aceptance-criteria-HU-SE-01}, Figura \ref{C2F2:Criterios de Aceptacion HU-SE-03} y Figura \ref{C2F2:Criterios de Aceptacion HU-SE-04}.
+\subsection{Implementación}
+
+Para la implementación de ciertas tareas en este Sprint, se optó por reutilizar el código de la versión anterior de ResNet, ya que se consideró más eficiente y rápido que comenzar desde cero.
+La optimización de funcionalidades existentes no está incluida en el alcance de este componente.
+Las funcionalidades que se reutilizarán son la generación del corpus y el modelo de TF-IDF,
+dado que estas tareas son las más demandantes en términos de tiempo y se determinó que no era necesario reimplementarlas.
+A estas funcionalidades solo se les añadirá una capa de infraestructura,
+ya que la lógica de negocio ya está implementada en la versión anterior de ResNet.
+Esto garantizará un punto de entrada para generar tanto el corpus como el modelo de TF-IDF,
+permitiendo su utilización en las búsquedas de autores y artículos.
+
+Para la tarea \textit{HU-SE-01: Implementar la automatización para generar el Corpus y el Modelo de TF-IDF}, 
+
+\subsection{Revisión y Retrospectiva}

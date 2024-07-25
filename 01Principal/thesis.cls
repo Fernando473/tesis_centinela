@@ -44,7 +44,7 @@
 \RequirePackage{multirow}
 \RequirePackage{longtable}
 \RequirePackage[table]{xcolor}
-
+\usepackage{paralist} % Añadir en el preámbulo
 %% MINITOC
 \RequirePackage[spanish]{minitoc}                                       % Mini-tables-of-contents
 % Change fonts of minitoc
