@@ -1,5 +1,5 @@
 \subsection{Introducción}
-Durante este sprint, nuestro objetivo principal es crear diseños detallados que integren las funcionalidades de las aplicaciones Resnet (ver sección \ref{chapter01-section03:ResNet}) y Research Decide en una plataforma unificada. Además, nos centraremos en identificar y proponer mejoras significativas para esta aplicación combinada. Utilizaremos Figma para desarrollar los mockups, aplicando los patrones de diseño más adecuados para asegurar una experiencia óptima para el usuario final. Es importante destacar que esta fase será iterativa, permitiendo ajustes y cambios continuos durante todo el desarrollo, por lo que la propuesta final no será definitiva.
+Durante este sprint, nuestro objetivo principal es crear diseños detallados que integren las funcionalidades de las aplicaciones Resnet (ver Sección \ref{chapter01-section03:ResNet}) y Research Decide en una plataforma unificada. Además, nos centraremos en identificar y proponer mejoras significativas para esta aplicación combinada. Utilizaremos Figma para desarrollar los mockups, aplicando los patrones de diseño más adecuados para asegurar una experiencia óptima para el usuario final. Es importante destacar que esta fase será iterativa, permitiendo ajustes y cambios continuos durante todo el desarrollo, por lo que la propuesta final no será definitiva.
 \subsection{Objetivos del Sprint}
 
 \begin{itemize}
@@ -10,16 +10,16 @@ Durante este sprint, nuestro objetivo principal es crear diseños detallados que
     \item Implementar la página de inicio de la aplicación.
 \end{itemize}
 \subsection{Planificación}
-Para este sprint, hemos seleccionado las historias de usuario con su respectivo código enfocadas principalmente en la integración gráfica de las plataformas mencionadas en la sección \ref{chapter01-section03:ResNet}, que se muestran en la tabla \ref{C2T1:Historias de Usuario del Sprint 1}. 
+Para este sprint, hemos seleccionado las historias de usuario con su respectivo código enfocadas principalmente en la integración gráfica de las plataformas mencionadas en la Sección \ref{chapter01-section03:ResNet}, que se muestran en la Tabla \ref{C2T1:Historias de Usuario del Sprint 1}. 
 Se debe tomar en cuenta que esta parte del desarrollo se enfoca en los usuarios que no necesariamente están registrados en la plataforma, por lo que se ha priorizado la visualización de información relevante para estos usuarios.
 \input{../03Tables/02Chapter/C2T1_huSprint1.tex}
 
 Todas las historias de usuario se han dividido en tareas más pequeñas y manejables. 
-Tambien en la Figura \ref{fig:aceptance-criteria-HU-SE-01}  y  \ref{fig:aceptance-criteria-HU-SE-02} se muestran los criterios de aceptación de cada historia de usuario, que se utilizarán para verificar si la historia de usuario se ha completado correctamente.
+También en las Figuras \ref{fig:aceptance-criteria-HU-SE-01}  y  \ref{fig:aceptance-criteria-HU-SE-02} se muestran los criterios de aceptación de cada historia de usuario, que se utilizarán para verificar si la historia de usuario se ha completado correctamente.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png}
-    \caption{Criterios de aceptación de las historias de usuario HU-SE-01}
+    \caption{Criterios de aceptación de la historia de usuario HU-SE-01}
     \label{fig:aceptance-criteria-HU-SE-01}
 \end{figure}
 \begin{figure}[H]
@@ -30,7 +30,7 @@ Tambien en la Figura \ref{fig:aceptance-criteria-HU-SE-01}  y  \ref{fig:aceptanc
 \end{figure}
 
 
-Estas historias de usuario se han priorizado en función de su importancia y complejidad, y se han asignado a los miembros del equipo de desarrollo. La figura \ref{fig:azure-board-sprint-1} muestra las tareas asignadas a cada miembro del equipo.
+Estas historias de usuario se han priorizado en función de su importancia y complejidad, y se han asignado a los miembros del equipo de desarrollo. La Figura \ref{fig:azure-board-sprint-1} muestra las tareas asignadas a cada miembro del equipo.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.9]{../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png}
@@ -41,8 +41,8 @@ Estas historias de usuario se han priorizado en función de su importancia y com
 \subsection{Implementación}
 Para la implementación de las historias de usuario, se ha utilizado la herramienta de diseño Figma, que permite crear prototipos de alta y baja fidelidad. 
 A continuación, se presentan los mockups de las interfaces de usuario de la aplicación que se han desarrollado durante este sprint.
-Cabe destacar que se siguio un proceso iterativo, por lo que los mockups presentados no son definitivos y pueden sufrir cambios en futuras iteraciones.
-Ademas el diseño se baso en el patron de diseño Mobile First, que consiste en diseñar primero la versión móvil de la aplicación y luego adaptarla a dispositivos de mayor tamaño.
+Cabe destacar que se siguió un proceso iterativo, por lo que los mockups presentados no son definitivos y pueden sufrir cambios en futuras iteraciones.
+Además el diseño se baso en el patrón de diseño Mobile First \cite{MOBILE-FIRST}, que consiste en diseñar primero la versión móvil de la aplicación y luego adaptarla a dispositivos de mayor tamaño.
 
 \subsubsection{Página de inicio}
 La página de inicio de la aplicación es la primera pantalla que verá el usuario al ingresar a la plataforma. 
@@ -59,9 +59,9 @@ La figura \ref{fig:mockup-home} muestra el diseño de la página de inicio.
 Como se menciono en la sección \ref{chapter02-section02-sprint0} se utilizara una adaptación de arquitectura hexagonal para desarrollar la estructura de la aplicación.
 Dando como resultado la estructura de carpetas que se muestra en la figura \ref{fig:hexagonal-architecture-home}.
 Puesto que la página de inicio es la primera pantalla que verá el usuario al ingresar a la plataforma, se ha decidido crear una carpeta específica para esta sección.
-Tambien debido a que angular es un framework que se maneja con componentes, se ha creado un componente para la página de inicio, el cual se encuentra en la carpeta de pages.
-A su vez  se ha creado el archivo de tipo module para la página de inicio, el mismo nos permitira importar los componentes necesarios para la página de inicio, sin tener que importarlos en el archivo principal de la aplicación.
-Este enfoque permitira que el modulo de la página de inicio sea independiente del resto de la aplicación, que juntado con la arquitectura hexagonal facilitara la escalabilidad y mantenimiento de la aplicación.
+También debido a que angular es un framework que se maneja con componentes, se ha creado un componente para la página de inicio, el cual se encuentra en la carpeta de pages.
+A su vez  se ha creado el archivo de tipo module para la página de inicio, el mismo nos permitirá importar los componentes necesarios para la página de inicio, sin tener que importarlos en el archivo principal de la aplicación.
+Este enfoque permitirá que el modulo de la página de inicio sea independiente del resto de la aplicación, que juntado con la arquitectura hexagonal facilitara la escalabilidad y mantenimiento de la aplicación.
 
 \begin{figure}[H]
     \centering
@@ -72,9 +72,9 @@ Este enfoque permitira que el modulo de la página de inicio sea independiente d
 
 Resultado de la implementación de la página de inicio se muestra en la figura \ref{fig:home-page}.
 En la que se muestra la barra de navegación, el formulario de búsqueda y la información que tiene Centinela. El formulario de búsqueda cuenta con 3 opciones, 
-la primera es para buscar por palabra clave a un autor, la segunda es para buscar autores relevantes dado un tópico de investigación y la tercera es para buscar articulos relevantes dado un tópico.
-Bajo el motor de busqueda se muestra el resumen del numero de articulos, autores y topicos que tiene registrado Centinela.
-Finalmente contiene un mapa que mostrará en que el número de articulos que se han publicado en cada provincia del Ecuador.
+la primera es para buscar por palabra clave a un autor, la segunda es para buscar autores relevantes dado un tópico de investigación y la tercera es para buscar artículos relevantes dado un tópico.
+Bajo el motor de búsqueda se muestra el resumen del numero de artículos, autores y tópicos que tiene registrado Centinela.
+Finalmente contiene un mapa que mostrará en que el número de artículos que se han publicado en cada provincia del Ecuador.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.160]{../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg}
@@ -85,8 +85,8 @@ Finalmente contiene un mapa que mostrará en que el número de articulos que se 
 \subsubsection{Página de resultados}
 La página de resultados es la pantalla que se mostrará al usuario después de realizar una búsqueda en la aplicación.
 En esta pantalla, se mostrarán los resultados de la búsqueda, que incluirán una lista de autores y artículos relevantes, dependiendo del tipo de búsqueda que haya realizado el usuario.
-La figura \ref{fig:mockup-results} muestra el diseño de la página de resultados. Cabe destacar que esta página va a ser dinamica, es decir se modificará en función de los resultados de la búsqueda.
-También contiene el componente de paginación, que permitirá al usuario navegar entre los resultados de la búsqueda. Este último está disponible para el tipo de busqueda de autores por palabra clave y para el tipo de busqueda de articulos relevantes por tópico, ya que estos tipos de busqueda pueden devolver un gran número de resultados. Y al ser una aplicación web, se ha optado por mostrar 10 resultados por página para garantizar una buena experiencia de usuario y reducir tiempos de carga.
+La figura \ref{fig:mockup-results} muestra el diseño de la página de resultados. Cabe destacar que esta página va a ser dinámica, es decir se modificará en función de los resultados de la búsqueda.
+También contiene el componente de paginación, que permitirá al usuario navegar entre los resultados de la búsqueda. Este último está disponible para el tipo de búsqueda de autores por palabra clave y para el tipo de búsqueda de artículos relevantes por tópico, ya que estos tipos de búsqueda pueden devolver un gran número de resultados. Y al ser una aplicación web, se ha optado por mostrar 10 resultados por página para garantizar una buena experiencia de usuario y reducir tiempos de carga.
 
 \begin{figure}[H]
     \centering
@@ -95,8 +95,8 @@ También contiene el componente de paginación, que permitirá al usuario navega
     \label{fig:mockup-results}
 \end{figure}
 
-Como se menciono en la Tabla \ref{fig:aceptance-criteria-HU-SE-01} y \ref{fig:aceptance-criteria-HU-SE-02} los criterios de aceptación de las historias de usuario HU-SE-01 y HU-SE-02 cada resultado tendra que ser redirigido a una pantalla en donde 
-se visualizará la información detallada del autor o del articulo. Para este caso en especifico se muestra el diseño para la pagina que tendra
+Como se menciono en la Tabla \ref{fig:aceptance-criteria-HU-SE-01} y \ref{fig:aceptance-criteria-HU-SE-02} los criterios de aceptación de las historias de usuario HU-SE-01 y HU-SE-02 cada resultado tendrá que ser redirigido a una pantalla en donde 
+se visualizará la información detallada del autor o del articulo. Para este caso en especifico se muestra el diseño para la pagina que tendrá
 la información detallada de un autor, en la figura \ref{fig:mockup-article-detail}.
 \begin{figure}[H]
     \centering
@@ -106,7 +106,7 @@ la información detallada de un autor, en la figura \ref{fig:mockup-article-deta
 \end{figure}
 
 Para el enrutamiento de la aplicación se ha utilizado el modulo de enrutamiento de Angular, el cual nos permite definir las rutas de la aplicación y asociarlas con los componentes correspondientes.
-En la Figura \ref{fig:enrutamiento-article-page} se muestra el enrutamiento hacia el componente que contendra la información general de un articulo. El mismo que como parametro recibirá el id del articulo que se desea visualizar.
+En la Figura \ref{fig:enrutamiento-article-page} se muestra el enrutamiento hacia el componente que contendrá la información general de un articulo. El mismo que como parámetro recibirá el id del articulo que se desea visualizar.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.2]{../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png}

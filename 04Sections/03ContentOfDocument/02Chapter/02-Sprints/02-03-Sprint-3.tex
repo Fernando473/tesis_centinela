@@ -14,7 +14,7 @@ los demás sprints no tendrán ese nivel de detalle.
 \begin{itemize}
     \item Levantar el ambiente de desarrollo
     \item Implementar y rediseñar los modelos de la base de datos en Neo4j a través de Neomodel.
-    \item Desarrollar la funcionalidad de busqueda de autores.
+    \item Desarrollar la funcionalidad de búsqueda de autores.
 \end{itemize}
 
 \subsection{Planificación}
@@ -58,7 +58,7 @@ Para dockerizar la aplicación se creó un archivo Dockerfile en la raíz del pr
 \end{figure}
 
 En la Figura \ref{fig:docker-compose} se muestra el archivo de configuración de Docker Compose.
-El mismo se encarga de orquestar los servicios de la aplicación y la base de datos. Tambien se asegura de persistir los datos de la base de datos en un volumen de Docker.
+El mismo se encarga de orquestar los servicios de la aplicación y la base de datos. También se asegura de persistir los datos de la base de datos en un volumen de Docker.
 De la misma manera se especifican las variables de entorno necesarias para la configuración y el correcto funcionamiento de la aplicación.
 
 \begin{figure}[!t]
@@ -91,14 +91,14 @@ En este caso se crearon 3 aplicaciones \textit{dashboards}, \textit{scopus\_inte
     \label{fig:django-apps}
 \end{figure}
 
-Las mismas que tendrán la estructura de carpetas en base a Arquitectura Hexagonal, como se menciono en la Seccion \ref{chapter02-section02-sprint0}.
+Las mismas que tendrán la estructura de carpetas en base a Arquitectura Hexagonal, como se menciono en la Sección \ref{chapter02-section02-sprint0}.
 Cada aplicación tendrá su propia capa de dominio, aplicación e infraestructura.
-Así como cada una tendra una función específica en la aplicación, \textit{dashboards} se encargara de la visualización de los datos, \textit{scopus\_integration} de la integración con Scopus y \textit{search\_engine} de la funcionalidad del motor de busqueda.
+Así como cada una tendrá una función específica en la aplicación, \textit{dashboards} se encargara de la visualización de los datos, \textit{scopus\_integration} de la integración con Scopus y \textit{search\_engine} de la funcionalidad del motor de busqueda.
 
 Una vez finalizada la creación de las aplicaciones,  procedió a hacer el rediseño de la base de datos
-previo a la implementación de los modelos en Neonmodel. Como se menciono en la Seccion \ref{section:introduction-sprint-3} se tomo como base el diseño en Neo4j propuesto en Resnet.
-Unicamente se agrego nuevos atributos a los nodos y relacione existentes.
-Mas especificamente se agregaron atributos al nodo de \textit{Autor} y a la relación \textit{COAUTHORED}.
+previo a la implementación de los modelos en Neonmodel. Como se menciono en la Sección \ref{section:introduction-sprint-3} se tomo como base el diseño en Neo4j propuesto en Resnet.
+Únicamente se agrego nuevos atributos a los nodos y relacione existentes.
+Mas específicamente se agregaron atributos al nodo de \textit{Autor} y a la relación \textit{COAUTHORED}.
 En la Figura \ref{fig:neo4j-model} se muestra el diseño de la base de datos.
 
 \begin{figure}[H]
@@ -111,7 +111,7 @@ En la Figura \ref{fig:neo4j-model} se muestra el diseño de la base de datos.
 Con estas actualizaciones en el modelo, se procedió a la implementación de los mismos en Neomodel.
 Como se menciono en el Sprint 0, para el desarrollo de la aplicación
 se utilizara Arquitectura Hexagonal. Bajo este enfoque se crearon los modelos de la base de datos en la capa de dominio.
-En la Figura \ref{fig:domain-layer} se muestra la capa de dominio de la aplicación que se encargara del motor de busqueda.
+En la Figura \ref{fig:domain-layer} se muestra la capa de dominio de la aplicación que se encargara del motor de búsqueda.
 
 \begin{figure}[H]
     \centering
@@ -120,7 +120,7 @@ En la Figura \ref{fig:domain-layer} se muestra la capa de dominio de la aplicaci
     \label{fig:domain-layer}
 \end{figure}
 
-Basandonos en el diseño de la base de datos que se muestra en la Figura \ref{fig:neo4j-model},
+Basándonos en el diseño de la base de datos que se muestra en la Figura \ref{fig:neo4j-model},
 se muestra el modelo \textit{Author} implementado con Neomodel en la Figura \ref{fig:author-model}.
 En terminos generales para asegurar la integridad de los datos se hace uso  de las restricciones de unicidad de Neomodel, con el tipo de dato \textit{UniqueIdProperty}.
 Esto será de gran utilidad para evitar la creación de nodos duplicados en la base de datos.
@@ -141,7 +141,7 @@ Para ello, se creó el repositorio AuthorRepository en la capa de dominio, encar
 
 El uso del patrón de diseño Repository garantiza la separación entre la lógica de negocio y la lógica de persistencia. Posteriormente, en la capa de aplicación, se implementará la lógica de negocio correspondiente a cada una de las funciones definidas en el repositorio.
 
-En la Figura \ref{fig:author-repository} se muestra un extracto del repositorio \textit{AuthorRepository} con algunos de los métodos que nos serviran para la busqueda de autores.
+En la Figura \ref{fig:author-repository} se muestra un extracto del repositorio \textit{AuthorRepository} con algunos de los métodos que nos servirán para la búsqueda de autores.
 
 \begin{figure}[H]
     \centering
@@ -187,7 +187,7 @@ A continuación se procedió a la implementación de la capa de infraestructura.
 Esta capa se va a encargar de la comunicación con el exterior de la aplicación, en este caso con la API REST.
 Para ello se creó la vista \textit{AuthorViews} que se encargará de recibir las peticiones HTTP y llamar a los casos de uso correspondientes.
 En la Figura \ref{fig:author-views} se muestra un extracto de la vista \textit{AuthorViews} con la implementación del caso de uso \textit{FindAuthorsByQuery}.
-Como se puede observar, la vista unicamente se encarga de recibir la petición HTTP y llamar al caso de uso correspondiente. No maneja la lógica de negocio.
+Como se puede observar, la vista únicamente se encarga de recibir la petición HTTP y llamar al caso de uso correspondiente. No maneja la lógica de negocio.
 Esto permite que la vista sea independiente de la lógica de negocio y de la lógica de persistencia. De esta manera, se garantiza la separación de responsabilidades y se facilita la reutilización de código, logrando que la aplicación sea más mantenible y escalable.
 \begin{figure}[H]
     \centering
@@ -196,10 +196,10 @@ Esto permite que la vista sea independiente de la lógica de negocio y de la ló
     \label{fig:author-views}
 \end{figure}
 
-Tambien se implemento la serialización de los datos en la capa de infraestructura.
+También se implemento la serialización de los datos en la capa de infraestructura.
 Para ello se creo el serializador \textit{AuthorSerializer} que se encargara de serializar los datos de los autores.
-Ademas, se utilizo Swagger para documentar la API REST. En la Figura \ref{fig:author-views} se puede vizualizar el decorador \footnote{
-    Un decorador es una función que toma otra función y extiende su funcionalidad sin modificarla.} \textit{extend\_schema} que permite la documentación automatica de la API, en este caso se documenta el endpoint \textit{find\_by\_query}.
+Ademas, se utilizo Swagger para documentar la API REST. En la Figura \ref{fig:author-views} se puede visualizar el decorador \footnote{
+    Un decorador es una función que toma otra función y extiende su funcionalidad sin modificarla.} \textit{extend\_schema} que permite la documentación automática de la API, en este caso se documenta el endpoint \textit{find\_by\_query}.
 El resultado de la documentación se muestra en la Figura \ref{fig:swagger}. La cual tiene una interfaz gráfica que permite probar los endpoints de la API.
 
 \begin{figure}[H]
@@ -212,7 +212,8 @@ El resultado de la documentación se muestra en la Figura \ref{fig:swagger}. La 
 Todo lo descrito anteriormente para la implementación de la funcionalidad de búsqueda de autores se puede resumir con un diagrama de secuencia.
 En la Figura \ref{fig:sequence-diagram-authors-by-query} se muestra el diagrama de secuencia de la funcionalidad de búsqueda de autores.
 En resumen con este diagrama de secuencia se puede observar el flujo de la aplicación. La petición HTTP llega a la vista \textit{AuthorViews}, la vista llama al caso de uso \textit{FindAuthorsByQuery}, el caso de uso llama al repositorio \textit{AuthorRepository} y este a su vez ejecuta la consulta en la base de datos.
-A partir de este punto se representará unicamente el flujo de la aplicación, sin entrar en detalles de la implementación.
+También podemos distinguir las capas por sus colores por ejemplo la capa de dominio esta representada en color naranja, la capa de aplicación en color amarillo y la capa de infraestructura en color verde.
+A partir de este punto se representará únicamente el flujo de la aplicación, sin entrar en detalles de la implementación.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.9]{../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_authors_by_query.png}

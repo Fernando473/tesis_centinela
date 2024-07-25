@@ -1,19 +1,21 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Objetivos}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Objetivo General}{1}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Objetivos específicos}{1}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Alcance}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Marco Teórico}{2}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}ResNet}{2}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Perfiles de Usuario}{2}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Scopus}{3}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Redes de Co-Autoría}{3}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Bases de Datos Orientadas a Grafos}{4}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}TF-IDF}{4}{subsection.1.3.6}%
-\contentsline {subsection}{\numberline {1.3.7}SCRUM}{5}{subsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.3.8}Arquitectura Hexagonal}{6}{subsection.1.3.8}%
-\contentsline {subsection}{\numberline {1.3.9}Herramientas Utilizadas}{7}{subsection.1.3.9}%
+\contentsline {section}{\numberline {1.1}Planteamiento del problema}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Justificación teórica}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Justicación metodológica}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objetivos}{1}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Objetivo General}{1}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Objetivos específicos}{1}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Alcance}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Marco Teórico}{2}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}ResNet}{2}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Scopus}{2}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Redes de Co-Autoría}{3}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Bases de Datos Orientadas a Grafos}{3}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}TF-IDF}{4}{subsection.1.6.5}%
+\contentsline {subsection}{\numberline {1.6.6}SCRUM}{5}{subsection.1.6.6}%
+\contentsline {subsection}{\numberline {1.6.7}Arquitectura Hexagonal}{6}{subsection.1.6.7}%
+\contentsline {subsection}{\numberline {1.6.8}Herramientas Utilizadas}{7}{subsection.1.6.8}%
 \contentsline {chapter}{\numberline {2}METODOLOGÍA}{8}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sprint 0}{8}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Sprint 1}{12}{section.2.2}%
@@ -21,7 +23,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Objetivos del Sprint}{12}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Planificación}{13}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Implementación}{16}{subsection.2.2.4}%
-\contentsline {subsubsection}{Página de inicio}{16}{subsection.2.2.4}%
+\contentsline {subsubsection}{Página de inicio}{17}{subsection.2.2.4}%
 \contentsline {subsubsection}{Página de resultados}{19}{figure.2.9}%
 \contentsline {subsection}{\numberline {2.2.5}Revisión y Retrospectiva}{22}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Sprint 2}{23}{section.2.3}%
@@ -41,12 +43,12 @@
 \contentsline {subsection}{\numberline {2.5.2}Objetivos}{43}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Planificación}{43}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Implementación}{44}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Revisión y Retrospectiva}{45}{subsection.2.5.5}%
-\contentsline {chapter}{\numberline {3}RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{46}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Resultados}{46}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Prueba con usuarios finales}{46}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Conclusiones}{47}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Recomendaciones}{47}{section.3.3}%
-\contentsline {chapter}{\numberline {4}REFERENCIAS BIBLIOGRÁFICAS}{48}{chapter.4}%
-\contentsline {chapter}{\numberline {A}Apendice A}{49}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Apendice B}{51}{appendix.Alph2}%
+\contentsline {subsection}{\numberline {2.5.5}Revisión y Retrospectiva}{48}{subsection.2.5.5}%
+\contentsline {chapter}{\numberline {3}RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Resultados}{49}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Prueba con usuarios finales}{49}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Conclusiones}{50}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Recomendaciones}{51}{section.3.3}%
+\contentsline {chapter}{\numberline {4}REFERENCIAS BIBLIOGRÁFICAS}{52}{chapter.4}%
+\contentsline {chapter}{\numberline {A}Apendice A}{53}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Apendice B}{55}{appendix.Alph2}%

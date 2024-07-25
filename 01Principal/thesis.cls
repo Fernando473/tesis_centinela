@@ -163,7 +163,7 @@
 
     \vspace{1cm}
     
-    {\noindent Certifico que el presente trabajo de integración curricular fue desarrollado por #1, bajo mi supervisión.}
+    {\noindent Certifico que el presente trabajo de integración curricular fue desarrollado por Jhon Fernando Sangopanta Naula, bajo mi supervisión.}
 
     \begin{flushright}
         \signature{#2}{DIRECTOR}
