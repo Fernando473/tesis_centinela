@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.20)  25 JUL 2024 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.20)  25 JUL 2024 10:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1239,7 +1239,7 @@ Cap\'{\i }tulo 1.
 
 [1
 
-]) (../04Sections/03ContentOfDocument/01Chapter/01-02-Alcance.tex) (../04Sections/03ContentOfDocument/01Chapter/02-31-ResNet.tex) (../04Sections/03ContentOfDocument/01Chapter/02-37-Scopus.tex
+]) (../04Sections/03ContentOfDocument/01Chapter/01-02-Alcance.tex) (../04Sections/03ContentOfDocument/01Chapter/02-37-Scopus.tex
 
 [2]) (../04Sections/03ContentOfDocument/01Chapter/02-32-Redes-De-Coautoria.tex) (../04Sections/03ContentOfDocument/01Chapter/02-33-Bases-Datos-Orientadas-Grafos.tex
 
@@ -1275,7 +1275,7 @@ Underfull \hbox (badness 5802) in paragraph at lines 7--7
 \T1/phv/m/n/10.95 pa-ra web y cien-cia de da-tos
  []
 
-<../02Figures/02Chapter/pycharm-logo.png, id=455, 1027.84pt x 1027.84pt>
+<../02Figures/02Chapter/pycharm-logo.png, id=450, 1027.84pt x 1027.84pt>
 File: ../02Figures/02Chapter/pycharm-logo.png Graphic file (type png)
 <use ../02Figures/02Chapter/pycharm-logo.png>
 Package pdftex.def Info: ../02Figures/02Chapter/pycharm-logo.png  used on input line 7.
@@ -1283,7 +1283,7 @@ Package pdftex.def Info: ../02Figures/02Chapter/pycharm-logo.png  used on input 
 
 LaTeX Warning: Citation 'DRFweb' on page 6 undefined on input line 9.
 
-<../02Figures/02Chapter/drf-logo.png, id=457, 702.625pt x 467.7475pt>
+<../02Figures/02Chapter/drf-logo.png, id=452, 702.625pt x 467.7475pt>
 File: ../02Figures/02Chapter/drf-logo.png Graphic file (type png)
 <use ../02Figures/02Chapter/drf-logo.png>
 Package pdftex.def Info: ../02Figures/02Chapter/drf-logo.png  used on input line 9.
@@ -1329,7 +1329,7 @@ LaTeX Warning: Citation 'AZURE-DEVOPS' on page 9 undefined on input line 22.
 
 LaTeX Warning: Citation 'AZURE-DEVOPS' on page 9 undefined on input line 22.
 
-<../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png, id=478, 1169.11781pt x 584.1825pt>
+<../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png, id=473, 1169.11781pt x 584.1825pt>
 File: ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png Graphic file (type png)
 <use ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png>
 Package pdftex.def Info: ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops-project.png  used on input line 26.
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: ../02Figures//02Chapter//Sprints//Sprint-0/azure-devops
 
 LaTeX Warning: Citation 'ARQUITECTURA-HEXAGONAL' on page 10 undefined on input line 37.
 
-<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png, id=491, 208.3785pt x 209.583pt>
+<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png, id=486, 208.3785pt x 209.583pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png  used on input line 43.
@@ -1356,7 +1356,7 @@ l.46         \end{figure}
 
 LaTeX Warning: Citation 'ARQUITECTURA-HEXAGONAL' on page 11 undefined on input line 47.
 
-<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png, id=499, 216.81pt x 213.79875pt>
+<../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png, id=494, 216.81pt x 213.79875pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png  used on input line 50.
@@ -1373,7 +1373,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.54     \end{itemize}
-                       <../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png>]) (../04Sections/03ContentOfDocument/02Chapter/02-Sprints/02-01-Sprint-1.tex (../03Tables/02Chapter/C2T1_huSprint1.tex
+                       <../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example.png>]) (../04Sections/03ContentOfDocument/02Chapter/02-Sprints/02-01-Sprint-1.tex
+
+LaTeX Warning: Reference `chapter01-section03:ResNet' on page 12 undefined on input line 2.
+
+
+LaTeX Warning: Reference `chapter01-section03:ResNet' on page 12 undefined on input line 13.
+
+(../03Tables/02Chapter/C2T1_huSprint1.tex
 Underfull \hbox (badness 2351) in paragraph at lines 8--8
 []|\T1/phv/m/n/10.95 Como usua-rio no re-gis-tra-
  []
@@ -1428,12 +1435,12 @@ l.32 \end{table}
                  <../02Figures/02Chapter/Sprints/Sprint-0/hexagonal-architecture-example-frontend.png>])
 
 [13]
-<../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png, id=520, 543.2295pt x 367.97475pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png, id=513, 543.2295pt x 367.97475pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-01.png  used on input line 21.
 (pdftex.def)             Requested size: 380.25806pt x 257.58057pt.
-<../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png, id=521, 542.025pt x 263.18324pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png, id=514, 542.025pt x 263.18324pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/aceptance-criteria-HU-SE-02.png  used on input line 27.
@@ -1446,7 +1453,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) ha
                                                   \__shipout_drop_firstpage_...
 l.30 \end{figure}
                  ]
-<../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png, id=527, 496.85625pt x 367.97475pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png, id=520, 496.85625pt x 367.97475pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png  used on input line 36.
@@ -1480,7 +1487,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) h
                                                   \__shipout_drop_firstpage_...
 l.51 
       <../02Figures/02Chapter/Sprints/Sprint-1/fig_azure-board-sprint-1.png>]
-<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png, id=540, 179.4705pt x 395.67825pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png, id=533, 179.4705pt x 395.67825pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png  used on input line 54.
@@ -1493,12 +1500,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) h
                                                   \__shipout_drop_firstpage_...
 l.65 
       <../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-home.png>]
-<../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png, id=548, 205.36725pt x 164.41425pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png, id=541, 205.36725pt x 164.41425pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png  used on input line 68.
 (pdftex.def)             Requested size: 164.29402pt x 131.53156pt.
-<../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg, id=550, 1644.1425pt x 1712.3975pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg, id=543, 1644.1425pt x 1712.3975pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg Graphic file (type jpg)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg  used on input line 80.
@@ -1511,7 +1518,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) h
                                                   \__shipout_drop_firstpage_...
 l.84 
       <../02Figures/02Chapter/Sprints/Sprint-1/home-page-ha.png>]
-<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png, id=557, 215.00325pt x 466.74374pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png, id=550, 215.00325pt x 466.74374pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png  used on input line 93.
@@ -1524,7 +1531,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) h
                                                   \__shipout_drop_firstpage_...
 l.97 
       <../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg>]
-<../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png, id=566, 215.00325pt x 476.37975pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png, id=559, 215.00325pt x 476.37975pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png  used on input line 103.
@@ -1537,7 +1544,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) 
                                                   \__shipout_drop_firstpage_...
 l.107 
        <../02Figures/02Chapter/Sprints/Sprint-1/mobile-first-results.png>]
-<../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png, id=573, 2089.8075pt x 636.3775pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png, id=566, 2089.8075pt x 636.3775pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png  used on input line 112.
@@ -1550,7 +1557,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) 
                                                   \__shipout_drop_firstpage_...
 l.116 
        <../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png>]
-<../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg, id=580, 1644.1425pt x 1194.4625pt>
+<../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg, id=573, 1644.1425pt x 1194.4625pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg Graphic file (type jpg)
 <use ../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg  used on input line 123.
@@ -1582,17 +1589,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) ha
                                                   \__shipout_drop_firstpage_...
 l.30 
      ]
-<../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-03.png, id=597, 492.03825pt x 283.0575pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-03.png, id=590, 492.03825pt x 283.0575pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-03.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-03.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-03.png  used on input line 33.
 (pdftex.def)             Requested size: 352.81552pt x 202.96764pt.
-<../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-04.png, id=598, 516.12825pt x 136.1085pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-04.png, id=591, 516.12825pt x 136.1085pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-04.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-04.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-04.png  used on input line 40.
 (pdftex.def)             Requested size: 352.81552pt x 93.0406pt.
-<../02Figures/02Chapter/Sprints/Sprint-2/fig_azure-board-sprint-2.png, id=600, 853.9905pt x 187.29974pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/fig_azure-board-sprint-2.png, id=593, 853.9905pt x 187.29974pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/fig_azure-board-sprint-2.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/fig_azure-board-sprint-2.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/fig_azure-board-sprint-2.png  used on input line 49.
@@ -1610,7 +1617,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15}) 
                                                   \__shipout_drop_firstpage_...
 l.53 
       <../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-03.png> <../02Figures/02Chapter/Sprints/Sprint-2/aceptance-criteria-HU-SE-04.png>]
-<../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-network.png, id=609, 249.93375pt x 537.207pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-network.png, id=602, 249.93375pt x 537.207pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-network.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-network.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-network.png  used on input line 61.
@@ -1628,12 +1635,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.17}) 
                                                   \__shipout_drop_firstpage_...
 l.71 
       <../02Figures/02Chapter/Sprints/Sprint-2/fig_azure-board-sprint-2.png> <../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-network.png>]
-<../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-articles.png, id=619, 215.00325pt x 471.56175pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-articles.png, id=612, 215.00325pt x 471.56175pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-articles.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-articles.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-articles.png  used on input line 74.
 (pdftex.def)             Requested size: 107.50136pt x 235.78029pt.
-<../02Figures/02Chapter/Sprints/Sprint-2/coauthors-interface-typescript.png, id=621, 1108.14pt x 1055.945pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/coauthors-interface-typescript.png, id=614, 1108.14pt x 1055.945pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/coauthors-interface-typescript.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/coauthors-interface-typescript.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/coauthors-interface-typescript.png  used on input line 85.
@@ -1646,7 +1653,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18}) 
                                                   \__shipout_drop_firstpage_...
 l.89 
       <../02Figures/02Chapter/Sprints/Sprint-2/mobile-first-articles.png>]
-<../02Figures/02Chapter/Sprints/Sprint-2/network-coauthors.jpeg, id=628, 1644.1425pt x 1360.08125pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/network-coauthors.jpeg, id=621, 1644.1425pt x 1360.08125pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/network-coauthors.jpeg Graphic file (type jpg)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/network-coauthors.jpeg>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/network-coauthors.jpeg  used on input line 94.
@@ -1659,7 +1666,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19}) 
                                                   \__shipout_drop_firstpage_...
 l.98 
       <../02Figures/02Chapter/Sprints/Sprint-2/coauthors-interface-typescript.png>]
-<../02Figures/02Chapter/Sprints/Sprint-2/article-table.png, id=637, 705.837pt x 585.387pt>
+<../02Figures/02Chapter/Sprints/Sprint-2/article-table.png, id=630, 705.837pt x 585.387pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-2/article-table.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-2/article-table.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-2/article-table.png  used on input line 104.
@@ -1706,7 +1713,7 @@ Underfull \hbox (badness 3492) in paragraph at lines 21--21
 )
 
 [31]
-<../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-02.png, id=656, 513.117pt x 130.086pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-02.png, id=649, 513.117pt x 130.086pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-02.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-02.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-02.png  used on input line 30.
@@ -1719,22 +1726,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) ha
                                                   \__shipout_drop_firstpage_...
 l.34 
      ]
-<../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-05.png, id=661, 515.526pt x 118.64325pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-05.png, id=654, 515.526pt x 118.64325pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-05.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-05.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-05.png  used on input line 37.
 (pdftex.def)             Requested size: 360.86574pt x 83.0497pt.
-<../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-06.png, id=662, 507.0945pt x 110.21175pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-06.png, id=655, 507.0945pt x 110.21175pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-06.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-06.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/aceptance-criteria-HU-SE-06.png  used on input line 44.
 (pdftex.def)             Requested size: 354.96371pt x 77.14769pt.
-<../02Figures/02Chapter/Sprints/Sprint-3/Dockerfile.png, id=664, 2567.84344pt x 1467.98438pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/Dockerfile.png, id=657, 2567.84344pt x 1467.98438pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/Dockerfile.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/Dockerfile.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/Dockerfile.png  used on input line 55.
 (pdftex.def)             Requested size: 308.12791pt x 176.15053pt.
-<../02Figures/02Chapter/Sprints/Sprint-3/compose-yaml.png, id=666, 1996.45876pt x 3405.72375pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/compose-yaml.png, id=659, 1996.45876pt x 3405.72375pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/compose-yaml.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/compose-yaml.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/compose-yaml.png  used on input line 66.
@@ -1773,17 +1780,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.26}) 
                                                   \__shipout_drop_firstpage_...
 l.76 
       <../02Figures/02Chapter/Sprints/Sprint-3/Dockerfile.png> <../02Figures/02Chapter/Sprints/Sprint-3/compose-yaml.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/docker-ps.png, id=681, 1075.6185pt x 85.5195pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/docker-ps.png, id=674, 1075.6185pt x 85.5195pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/docker-ps.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/docker-ps.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/docker-ps.png  used on input line 79.
 (pdftex.def)             Requested size: 430.23978pt x 34.20718pt.
-<../02Figures/02Chapter/Sprints/Sprint-3/django-apps.png, id=683, 163.812pt x 75.28125pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/django-apps.png, id=676, 163.812pt x 75.28125pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/django-apps.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/django-apps.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/django-apps.png  used on input line 89.
 (pdftex.def)             Requested size: 163.81158pt x 75.28105pt.
-<../02Figures/02Chapter/Sprints/Sprint-3/centinela-graph.design-light.png, id=687, 868.24374pt x 721.69624pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/centinela-graph.design-light.png, id=680, 868.24374pt x 721.69624pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/centinela-graph.design-light.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/centinela-graph.design-light.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/centinela-graph.design-light.png  used on input line 106.
@@ -1801,7 +1808,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.28}) 
                                                   \__shipout_drop_firstpage_...
 l.110 
        <../02Figures/02Chapter/Sprints/Sprint-3/docker-ps.png> <../02Figures/02Chapter/Sprints/Sprint-3/django-apps.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/domain-layer.png, id=695, 175.857pt x 135.50626pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/domain-layer.png, id=688, 175.857pt x 135.50626pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/domain-layer.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/domain-layer.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/domain-layer.png  used on input line 118.
@@ -1819,7 +1826,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.30}) 
                                                   \__shipout_drop_firstpage_...
 l.128 
        <../02Figures/02Chapter/Sprints/Sprint-3/centinela-graph.design-light.png> <../02Figures/02Chapter/Sprints/Sprint-3/domain-layer.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/author-neomodel.png, id=704, 4067.44594pt x 1350.54562pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/author-neomodel.png, id=697, 4067.44594pt x 1350.54562pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/author-neomodel.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/author-neomodel.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/author-neomodel.png  used on input line 131.
@@ -1833,7 +1840,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 13
 (C:\Users\ferna\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-<../02Figures/02Chapter/Sprints/Sprint-3/author-repository.png, id=706, 3420.02719pt x 1680.2775pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/author-repository.png, id=699, 3420.02719pt x 1680.2775pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/author-repository.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/author-repository.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/author-repository.png  used on input line 148.
@@ -1851,7 +1858,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.31}) 
                                                   \__shipout_drop_firstpage_...
 l.152 
        <../02Figures/02Chapter/Sprints/Sprint-3/author-neomodel.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/author-service.png, id=715, 3667.7025pt x 3352.27406pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/author-service.png, id=708, 3667.7025pt x 3352.27406pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/author-service.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/author-service.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/author-service.png  used on input line 158.
@@ -1864,7 +1871,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.32}) 
                                                   \__shipout_drop_firstpage_...
 l.162 
        <../02Figures/02Chapter/Sprints/Sprint-3/author-repository.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/author-by-query-use-case.png, id=722, 3457.66782pt x 797.22844pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/author-by-query-use-case.png, id=715, 3457.66782pt x 797.22844pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/author-by-query-use-case.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/author-by-query-use-case.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/author-by-query-use-case.png  used on input line 181.
@@ -1877,7 +1884,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.33}) 
                                                   \__shipout_drop_firstpage_...
 l.185 
        <../02Figures/02Chapter/Sprints/Sprint-3/author-service.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/author-views.png, id=729, 3743.73656pt x 3048.13782pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/author-views.png, id=722, 3743.73656pt x 3048.13782pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/author-views.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/author-views.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/author-views.png  used on input line 194.
@@ -1895,12 +1902,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.35}) 
                                                   \__shipout_drop_firstpage_...
 l.204 
        <../02Figures/02Chapter/Sprints/Sprint-3/author-by-query-use-case.png> <../02Figures/02Chapter/Sprints/Sprint-3/author-views.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/swagger-ui.png, id=738, 807.015pt x 545.6385pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/swagger-ui.png, id=731, 807.015pt x 545.6385pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/swagger-ui.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/swagger-ui.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/swagger-ui.png  used on input line 207.
 (pdftex.def)             Requested size: 403.50652pt x 272.81857pt.
-<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_authors_by_query.png, id=740, 504.6855pt x 202.95825pt>
+<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_authors_by_query.png, id=733, 504.6855pt x 202.95825pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_authors_by_query.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_authors_by_query.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_authors_by_query.png  used on input line 219.
@@ -1918,7 +1925,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.36}) 
                                                   \__shipout_drop_firstpage_...
 l.224 
        <../02Figures/02Chapter/Sprints/Sprint-3/swagger-ui.png>]
-<../02Figures/02Chapter/Sprints/Sprint-3/graph-database.png, id=747, 1619.04875pt x 658.46pt>
+<../02Figures/02Chapter/Sprints/Sprint-3/graph-database.png, id=740, 1619.04875pt x 658.46pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-3/graph-database.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-3/graph-database.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-3/graph-database.png  used on input line 234.
@@ -1952,7 +1959,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.4}) ha
                                                   \__shipout_drop_firstpage_...
 l.32 
      ]
-<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_corpus.png, id=770, 413.74574pt x 236.082pt>
+<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_corpus.png, id=763, 413.74574pt x 236.082pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_corpus.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_corpus.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_corpus.png  used on input line 43.
@@ -1970,12 +1977,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.39}) 
                                                   \__shipout_drop_firstpage_...
 l.54 
       <../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_corpus.png>]
-<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_model.png, id=777, 342.078pt x 183.68625pt>
+<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_model.png, id=770, 342.078pt x 183.68625pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_model.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_model.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_model.png  used on input line 57.
 (pdftex.def)             Requested size: 239.45296pt x 128.57947pt.
-<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_most_relevant_articles_by_topic.png, id=779, 536.0025pt x 333.04425pt>
+<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_most_relevant_articles_by_topic.png, id=772, 536.0025pt x 333.04425pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_most_relevant_articles_by_topic.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_most_relevant_articles_by_topic.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_most_relevant_articles_by_topic.png  used on input line 77.
@@ -1988,7 +1995,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.40}) 
                                                   \__shipout_drop_firstpage_...
 l.81 
       <../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_model.png>]
-<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_articles_by_author.png, id=786, 591.4095pt x 221.628pt>
+<../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_articles_by_author.png, id=779, 591.4095pt x 221.628pt>
 File: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_articles_by_author.png Graphic file (type png)
 <use ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_articles_by_author.png>
 Package pdftex.def Info: ../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_articles_by_author.png  used on input line 91.
@@ -2107,7 +2114,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 58F7B7F65554905641A06CE9BDDA7FD0;7015.
+(rerunfilecheck)             Checksum: CFD59FA12612DEEDF29FB588D5B94BF9;6923.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -2118,17 +2125,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47320 strings out of 473904
- 1092490 string characters out of 5726600
- 2074513 words of memory out of 5000000
- 69118 multiletter control sequences out of 15000+600000
+ 47310 strings out of 473904
+ 1091942 string characters out of 5726600
+ 2074473 words of memory out of 5000000
+ 69112 multiletter control sequences out of 15000+600000
  613284 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,101p,1236b,2346s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ferna\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/ferna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (68 pages, 5496890 bytes).
+Output written on main.pdf (68 pages, 5496157 bytes).
 PDF statistics:
- 931 PDF objects out of 1000 (max. 8388607)
- 195 named destinations out of 1000 (max. 500000)
- 641 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 924 PDF objects out of 1000 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 633 words of extra memory for PDF output out of 10000 (max. 10000000)
 
