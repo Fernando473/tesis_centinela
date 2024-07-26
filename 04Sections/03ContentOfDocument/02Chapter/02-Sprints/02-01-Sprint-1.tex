@@ -47,7 +47,7 @@ Además el diseño se baso en el patrón de diseño Mobile First \cite{MOBILE-FI
 \subsubsection{Página de inicio}
 La página de inicio de la aplicación es la primera pantalla que verá el usuario al ingresar a la plataforma. 
 En esta pantalla, se mostrarán las opciones de búsqueda y un conjunto de datos sobre la información que tiene Centinela. Así como también una barra de navegación que permitirá al usuario acceder a otras secciones de la aplicación. 
-La figura \ref{fig:mockup-home} muestra el diseño de la página de inicio.
+La Figura \ref{fig:mockup-home} muestra el diseño de la página de inicio.
 
 \begin{figure}[H]
     \centering
@@ -56,10 +56,9 @@ La figura \ref{fig:mockup-home} muestra el diseño de la página de inicio.
     \label{fig:mockup-home}
 \end{figure}
 
-Como se menciono en la sección \ref{chapter02-section02-sprint0} se utilizara una adaptación de arquitectura hexagonal para desarrollar la estructura de la aplicación.
-Dando como resultado la estructura de carpetas que se muestra en la figura \ref{fig:hexagonal-architecture-home}.
+Como se mencionó en la Sección \ref{chapter02-section02-sprint0} se utilizará una adaptación de arquitectura hexagonal para desarrollar la estructura de la aplicación, dando como resultado la estructura de carpetas que se muestra en la Figura \ref{fig:hexagonal-architecture-home}.
 Puesto que la página de inicio es la primera pantalla que verá el usuario al ingresar a la plataforma, se ha decidido crear una carpeta específica para esta sección.
-También debido a que angular es un framework que se maneja con componentes, se ha creado un componente para la página de inicio, el cual se encuentra en la carpeta de pages.
+También debido a que Angular es un framework que se maneja con componentes, se ha creado un componente para la página de inicio, el cual se encuentra en la carpeta de pages.
 A su vez  se ha creado el archivo de tipo module para la página de inicio, el mismo nos permitirá importar los componentes necesarios para la página de inicio, sin tener que importarlos en el archivo principal de la aplicación.
 Este enfoque permitirá que el modulo de la página de inicio sea independiente del resto de la aplicación, que juntado con la arquitectura hexagonal facilitara la escalabilidad y mantenimiento de la aplicación.
 
@@ -70,11 +69,10 @@ Este enfoque permitirá que el modulo de la página de inicio sea independiente 
     \label{fig:hexagonal-architecture-home}
 \end{figure}
 
-Resultado de la implementación de la página de inicio se muestra en la figura \ref{fig:home-page}.
-En la que se muestra la barra de navegación, el formulario de búsqueda y la información que tiene Centinela. El formulario de búsqueda cuenta con 3 opciones, 
+El resultado de la implementación de la página de inicio se muestra en la Figura \ref{fig:home-page}, en la que se muestra la barra de navegación, el formulario de búsqueda y la información que tiene Centinela. El formulario de búsqueda cuenta con 3 opciones, 
 la primera es para buscar por palabra clave a un autor, la segunda es para buscar autores relevantes dado un tópico de investigación y la tercera es para buscar artículos relevantes dado un tópico.
 Bajo el motor de búsqueda se muestra el resumen del numero de artículos, autores y tópicos que tiene registrado Centinela.
-Finalmente contiene un mapa que mostrará en que el número de artículos que se han publicado en cada provincia del Ecuador.
+Finalmente contiene un mapa que mostrará el número de artículos que se han publicado en cada provincia del Ecuador.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.160]{../02Figures/02Chapter/Sprints/Sprint-1/home-page.jpeg}
@@ -83,9 +81,9 @@ Finalmente contiene un mapa que mostrará en que el número de artículos que se
 \end{figure}
 
 \subsubsection{Página de resultados}
-La página de resultados es la pantalla que se mostrará al usuario después de realizar una búsqueda en la aplicación.
+La página de resultados es la pantalla que se mostrara después de que el usuario realice una búsqueda en la aplicación.
 En esta pantalla, se mostrarán los resultados de la búsqueda, que incluirán una lista de autores y artículos relevantes, dependiendo del tipo de búsqueda que haya realizado el usuario.
-La figura \ref{fig:mockup-results} muestra el diseño de la página de resultados. Cabe destacar que esta página va a ser dinámica, es decir se modificará en función de los resultados de la búsqueda.
+La Figura \ref{fig:mockup-results} muestra el diseño de la página de resultados. Cabe destacar que esta página va a ser dinámica, es decir, se modificará en función de los resultados de la búsqueda.
 También contiene el componente de paginación, que permitirá al usuario navegar entre los resultados de la búsqueda. Este último está disponible para el tipo de búsqueda de autores por palabra clave y para el tipo de búsqueda de artículos relevantes por tópico, ya que estos tipos de búsqueda pueden devolver un gran número de resultados. Y al ser una aplicación web, se ha optado por mostrar 10 resultados por página para garantizar una buena experiencia de usuario y reducir tiempos de carga.
 
 \begin{figure}[H]
@@ -95,33 +93,33 @@ También contiene el componente de paginación, que permitirá al usuario navega
     \label{fig:mockup-results}
 \end{figure}
 
-Como se menciono en la Tabla \ref{fig:aceptance-criteria-HU-SE-01} y \ref{fig:aceptance-criteria-HU-SE-02} los criterios de aceptación de las historias de usuario HU-SE-01 y HU-SE-02 cada resultado tendrá que ser redirigido a una pantalla en donde 
-se visualizará la información detallada del autor o del articulo. Para este caso en especifico se muestra el diseño para la pagina que tendrá
-la información detallada de un autor, en la figura \ref{fig:mockup-article-detail}.
+Como se mencionó en las Figuras \ref{fig:aceptance-criteria-HU-SE-01} y \ref{fig:aceptance-criteria-HU-SE-02} los criterios de aceptación de las historias de usuario HU-SE-01 y HU-SE-02 cada resultado tendrá que ser redirigido a una pantalla en donde 
+se visualizará la información detallada del autor o del artículo. Para este caso en especifico se muestra el diseño para la pagina que tendrá
+la información detallada de un autor.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{../02Figures/02Chapter/Sprints/Sprint-1/article-detail.png}
-    \caption{Mockup de la página de detalle del articulo}
+    \caption{Mockup de la página de detalle del Articulo}
     \label{fig:mockup-article-detail}
 \end{figure}
 
 Para el enrutamiento de la aplicación se ha utilizado el modulo de enrutamiento de Angular, el cual nos permite definir las rutas de la aplicación y asociarlas con los componentes correspondientes.
-En la Figura \ref{fig:enrutamiento-article-page} se muestra el enrutamiento hacia el componente que contendrá la información general de un articulo. El mismo que como parámetro recibirá el id del articulo que se desea visualizar.
+En la Figura \ref{fig:enrutamiento-article-page} se muestra el enrutamiento hacia el componente que contendrá la información general de un artículo, el mismo que como parámetro recibirá el id del Articulo que se desea visualizar.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.2]{../02Figures/02Chapter/Sprints/Sprint-1/enrutamiento-article-page.png}
-    \caption{Routing de la página de detalle de articulo}
+    \caption{Routing de la página de detalle de artículo}
     \label{fig:enrutamiento-article-page}
 \end{figure}
 
 %% Aqui deseo mostrar ya la implementacion de la pagina de articulo pero da una descripcion de la misma
-Resultado de la implementación de la página de información general de un articulo se muestra en la figura \ref{fig:article-page}.
-En la que se muestra la información general de un articulo, como el titulo, resumen, autores, afiliaciones, palabras clave y el año de publicación. Asi como tambien un boton que permitira al usuario acceder al articulo completo en la pagina de Scopus.
+Resultado de la implementación de la página de información general de un Articulo se muestra en la figura \ref{fig:article-page}.
+En la que se muestra la información general de un Articulo, como el titulo, resumen, autores, afiliaciones, palabras clave y el año de publicación, así como también un botón que permitirá al usuario acceder al Articulo completo en la pagina de Scopus.
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.160]{../02Figures/02Chapter/Sprints/Sprint-1/article-page.jpeg}
-    \caption{Página de detalle de articulo}
+    \caption{Página de detalle de Artículo}
     \label{fig:article-page}
 \end{figure}
 
