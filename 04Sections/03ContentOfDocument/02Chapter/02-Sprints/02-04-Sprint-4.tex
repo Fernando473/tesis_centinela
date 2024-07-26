@@ -14,11 +14,11 @@ que Resnet podía realizar en su estado final, alcanzando así el nivel de funci
     \item Implementar la funcionalidad para obtener un Autor dado su ID de Scopus
 \end{itemize}
 \subsection{Planificación}
-Para este sprint se terminaron las tareas que quedaron pendientes en el Sprint 1 (Ver sección \ref{chapter02-section02-sprint1})  y en el Sprint 2 (Ver sección \ref{chapter02-section02-sprint2}).
-En la tabla \ref{C2T4:Historias de Usuario del Sprint 4} se presentan las historias de usuario que se abordarán en este sprint con sus respectivas tareas.
+Para este sprint se terminaron las tareas que quedaron pendientes en el Sprint 1 (Ver sección~\ref{chapter02-section02-sprint1})  y en el Sprint 2 (Ver sección\ref{chapter02-section02-sprint2}).
+En la tabla~\ref{C2T4:Historias de Usuario del Sprint 4} se presentan las historias de usuario que se abordarán en este sprint con sus respectivas tareas.
 \input{../03Tables/02Chapter/C2T4_huSprint4.tex}
 
-Los criterios de aceptación para las historias de usuario HU-SE-01, HU-SE-03 y HU-SE-04 han sido definidos y se pueden consultar en las siguientes figuras: Figura \ref{fig:aceptance-criteria-HU-SE-01}, Figura \ref{C2F2:Criterios de Aceptacion HU-SE-03} y Figura \ref{C2F2:Criterios de Aceptacion HU-SE-04}.
+Los criterios de aceptación para las historias de usuario HU-SE-01, HU-SE-03 y HU-SE-04 han sido definidos y se pueden consultar en las siguientes figuras: Figura~\ref{fig:aceptance-criteria-HU-SE-01}, Figura~\ref{C2F2:Criterios de Aceptacion HU-SE-03} y Figura\ref{C2F2:Criterios de Aceptacion HU-SE-04}.
 \subsection{Implementación}
 
 Para la implementación de ciertas tareas en este Sprint, se optó por reutilizar el código de la versión anterior de ResNet, ya que se consideró más eficiente y rápido que comenzar desde cero.
@@ -36,13 +36,12 @@ Dado que las funcionalidades de buscar autores y artículos relevantes dependen 
 Para poder generar el corpus de datos, el endppoint \textit{/api/v1/generate-corpus/} se encargará de recibir la petición mediante el método POST.
 Este llamara al caso de uso \textit{GenerateCorpusUseCase} que se encargará de generar de ejecutar la lógica de negocio para generar el corpus de datos.
 El mismo que toma datos de Autores, Artículos, y Tópicos de la base de datos Neo4j para crear los documentos y almacenarlos en un archivo Pickle.
-En la figura \ref{fig:sequence-diagram-generate-corpus} se muestra el diagrama de secuencia para la generación del corpus de datos.
+En la figura~\ref{fig:sequence-diagram-generate-corpus} se muestra el diagrama de secuencia para la generación del corpus de datos.
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_corpus.png}
-    \caption{Diagrama de secuencia para la generación del Corpus}
-    \label{fig:sequence-diagram-generate-corpus}
+    \caption{Diagrama de secuencia para la generación del Corpus}\label{fig:sequence-diagram-generate-corpus}
 \end{figure}
 
 Tarea: \textit{HU-SE-01: Generar el modelo de TF-IDF}
@@ -50,13 +49,12 @@ Una vez que el corpus de datos ha sido generado, se procederá a generar el mode
 Para ello, el endpoint \textit{/api/v1/generate-model/} se encargará de recibir la petición mediante el método POST.
 Este llamara al caso de uso \textit{GenerateTfidfUseCase} que se encargará de ejecutar la lógica de negocio para generar el modelo de TF-IDF.
 El mismo que toma el corpus de datos generado anteriormente y lo procesa para generar el modelo de TF-IDF, para guardar el modelo en un archivo Pickle.
-En la figura \ref{fig:sequence-diagram-generate-tfidf} se muestra el diagrama de secuencia para la generación del modelo de TF-IDF.
+En la Figura~\ref{fig:sequence-diagram-generate-tfidf} se muestra el diagrama de secuencia para la generación del modelo de TF-IDF.
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_generate_model.png}
-    \caption{Diagrama de secuencia para la generación del Modelo de TF-IDF}
-    \label{fig:sequence-diagram-generate-tfidf}
+    \caption{Diagrama de secuencia para la generación del Modelo de TF-IDF}\label{fig:sequence-diagram-generate-tfidf}
 \end{figure}
 
 Una vez que el corpus de datos y el modelo han sido generados se puede proceder a realizar las implementaciones tanto de autores relevantes como de artículos relevantes.
@@ -70,13 +68,12 @@ Para la funcionalidad de Artículos relevantes la ruta \textit{/api/v1/articles/
 \end{itemize}
 Este endpoint llamara al caso de uso \textit{GetMostRelevantArticlesByTopicUseCase} que se encargará de ejecutar la lógica de negocio para obtener los Artículos relevantes.
 El proceso comienza tomando el tópico y pasándolo al modelo TF-IDF para identificar los IDs de los artículos relevantes. A continuación, se consulta la base de datos Neo4j para obtener los datos de esos artículos. Utilizando los parámetros de la petición, se buscan y retornan los artículos relevantes en una lista paginada, todo esto dentro de una respuesta Http.
-En la figura \ref{fig:sequence-diagram-get-most-relevant-articles} se muestra el diagrama de secuencia para la obtención de los Artículos relevantes.
+En la Figura~\ref{fig:sequence-diagram-get-most-relevant-articles} se muestra el diagrama de secuencia para la obtención de los Artículos relevantes.
 
 \begin{figure}[H]
     \centering
 \includegraphics[scale=0.7]{../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_most_relevant_articles_by_topic.png}
-    \caption{Diagrama de secuencia para la obtención de los Artículos Relevantes}
-    \label{fig:sequence-diagram-get-most-relevant-articles}
+    \caption{Diagrama de secuencia para la obtención de los Artículos Relevantes}\label{fig:sequence-diagram-get-most-relevant-articles}
 \end{figure}
 
 %% HU-SE-03
@@ -85,23 +82,21 @@ HU-SE-03: Obtener la red de coautoría de un autor
 Para la funcionalidad de obtener la red de coautoría de un autor, la ruta \textit{/api/v1/coauthors/coauthors/{id}/coauthors\_by\_id/} (GET) recibirá en su URL el ID del autor del cual se desea obtener la red de coautoría.
 Este endpoint llamara al caso de uso \textit{GetCoauthorsByAuthorIdUseCase} que se encargará de ejecutar la lógica de negocio para obtener la red de coautoría de un autor.
 El proceso comienza tomando el ID del autor y consultando la base de datos Neo4j para obtener los nodos (Autores) y links (collab\_strength) de la red de coautoría de ese autor. A continuación, se consultan los datos de esos coautores y se retornan en una respuesta Http.
-En la figura \ref{fig:sequence-diagram-get-coauthors-by-author-id} se muestra el diagrama de secuencia para la obtención de la red de coautoría de un autor.
+En la Figura~\ref{fig:sequence-diagram-get-coauthors-by-author-id} se muestra el diagrama de secuencia para la obtención de la red de coautoría de un autor.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_articles_by_author.png}
-    \caption{Diagrama de secuencia para la obtención de la red de coautoría de un autor}
-    \label{fig:sequence-diagram-get-coauthors-by-author-id}
+    \caption{Diagrama de secuencia para la obtención de la red de coautoría de un autor}\label{fig:sequence-diagram-get-coauthors-by-author-id}
 \end{figure}
 
 %% HY-SE-04
 HU-SE-03: Para obtener los Artículos en los que ha colaborado un autor, la ruta \textit{/api/v1/articles/find-articles-by-author-id/} (GET) recibirá en su URL el ID del autor del cual se desea obtener los articulos en los que ha colaborado.
 Este endpoint llamara al caso de uso \textit{FindArticlesByAuthorIdUseCase} que se encargará de ejecutar la lógica de negocio para obtener los Artículos en los que ha colaborado un autor.
-En la Figura \ref{fig:sequence-diagram-find-articles-by-author-id} se muestra el diagrama de secuencia para la obtención de los artículos en los que ha colaborado un autor.
+En la Figura~\ref{fig:sequence-diagram-find-articles-by-author-id} se muestra el diagrama de secuencia para la obtención de los artículos en los que ha colaborado un autor.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{../02Figures/02Chapter/Sprints/Sprint-4/sequence_diagram_find_articles_by_author.png}
-    \caption{Diagrama de secuencia para la obtención de los Artículos en los que ha colaborado un autor}
-    \label{fig:sequence-diagram-find-articles-by-author-id}
+    \caption{Diagrama de secuencia para la obtención de los Artículos en los que ha colaborado un autor}\label{fig:sequence-diagram-find-articles-by-author-id}
 \end{figure}
 
 \subsection{Revisión y Retrospectiva}

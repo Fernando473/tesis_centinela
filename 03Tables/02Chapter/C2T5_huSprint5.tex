@@ -1,0 +1,26 @@
+% chktex-file 44 disable warning about spaces
+\begin{table}[!t]
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{5cm}|p{6cm}|}
+        \midrule
+        \textbf{Identificador} & \textbf{Historia de Usuario}                                                                                                                                                                        & \textbf{Tareas} \\
+        \hline
+        HU-SE-07 & Como administrador de Centinela, deseo poder actualizar la información de artículos de manera automatizada, para que se reduzca el esfuerzo manual y se garantice que la base de datos esté siempre actualizada con la información más reciente. &
+        \begin{compactitem}
+            \item Configurar Acceso a la API de Scopus
+            \item Procesar y limpiar los datos de Scopus
+            \item Almacenar los datos en la base de datos Neo4j
+            \item Crear un servicio de búsqueda de artículos
+            \item Crear un panel admin del sistema 
+        \end{compactitem}
+        \\\hline
+        HU-SE-08 & Como administrador de Centinela, deseo poder monitorear el estado del proceso automatizado a través de un sistema de logs, para que pueda revisar y entender lo que está ocurriendo durante la carga y el procesamiento de los datos &
+                \begin{compactitem}
+            \item Configurar un sistema de logging
+            \item Almacenar los logs
+            \item Desarrollar la interfaz para visualizar los logs
+        \end{compactitem}
+        \\\hline
+    \end{tabular}
+    \caption{Historias de Usuario del sprint 5}\label{C2T5:Historias de Usuario del Sprint 5}%
+\end{table}

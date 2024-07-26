@@ -47,11 +47,24 @@
 \contentsline {figure}{\numberline {2.41}{\ignorespaces Diagrama de secuencia para la obtención de los Artículos Relevantes}}{49}{figure.2.41}%
 \contentsline {figure}{\numberline {2.42}{\ignorespaces Diagrama de secuencia para la obtención de la red de coautoría de un autor}}{49}{figure.2.42}%
 \contentsline {figure}{\numberline {2.43}{\ignorespaces Diagrama de secuencia para la obtención de los Artículos en los que ha colaborado un autor}}{50}{figure.2.43}%
+\contentsline {figure}{\numberline {2.44}{\ignorespaces Criterios de Aceptación HU-SE-07}}{51}{figure.2.44}%
+\contentsline {figure}{\numberline {2.45}{\ignorespaces Criterios de Aceptación HU-SE-08}}{51}{figure.2.45}%
+\contentsline {figure}{\numberline {2.46}{\ignorespaces Historias de Usuario en Azure DevOps para el Sprint 5}}{52}{figure.2.46}%
+\contentsline {figure}{\numberline {2.47}{\ignorespaces Flujo de la Automatización}}{53}{figure.2.47}%
+\contentsline {figure}{\numberline {2.48}{\ignorespaces Estructura de las Variables de Entorno}}{54}{figure.2.48}%
+\contentsline {figure}{\numberline {2.49}{\ignorespaces Modelo Topic}}{55}{figure.2.49}%
+\contentsline {figure}{\numberline {2.50}{\ignorespaces Diagrama de Secuencia de la Integración con la API de Elsevier}}{56}{figure.2.50}%
+\contentsline {figure}{\numberline {2.51}{\ignorespaces Ejemplo de JSON de un Artículo}}{57}{figure.2.51}%
+\contentsline {figure}{\numberline {2.52}{\ignorespaces Diagrama de Secuencia de la Integración con la API de Author Retrieval}}{58}{figure.2.52}%
+\contentsline {figure}{\numberline {2.53}{\ignorespaces Configuración del Sistema de Logging}}{59}{figure.2.53}%
+\contentsline {figure}{\numberline {2.54}{\ignorespaces Login de Administrador}}{60}{figure.2.54}%
+\contentsline {figure}{\numberline {2.55}{\ignorespaces Panel de Administración}}{60}{figure.2.55}%
+\contentsline {figure}{\numberline {2.56}{\ignorespaces Panel de Logs}}{61}{figure.2.56}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{51}{chapter.3}%
+\contentsline {xchapter}{RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{62}{chapter.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{REFERENCIAS BIBLIOGRÁFICAS}{54}{chapter.4}%
+\contentsline {xchapter}{REFERENCIAS BIBLIOGRÁFICAS}{65}{chapter.4}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Apendice A}{55}{appendix.Alph1}%
+\contentsline {xchapter}{Apendice A}{66}{appendix.Alph1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Apendice B}{57}{appendix.Alph2}%
+\contentsline {xchapter}{Apendice B}{68}{appendix.Alph2}%

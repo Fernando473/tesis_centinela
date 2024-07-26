@@ -44,11 +44,17 @@
 \contentsline {subsection}{\numberline {2.5.3}Planificación}{45}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Implementación}{46}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}Revisión y Retrospectiva}{50}{subsection.2.5.5}%
-\contentsline {chapter}{\numberline {3}RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{51}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Resultados}{51}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Prueba con usuarios finales}{51}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Conclusiones}{52}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Recomendaciones}{53}{section.3.3}%
-\contentsline {chapter}{\numberline {4}REFERENCIAS BIBLIOGRÁFICAS}{54}{chapter.4}%
-\contentsline {chapter}{\numberline {A}Apendice A}{55}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Apendice B}{57}{appendix.Alph2}%
+\contentsline {section}{\numberline {2.6}Sprint 5}{50}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Introducción}{50}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Objetivos}{51}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Planificación}{51}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Implementación}{53}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Revisión y Retrospectiva}{61}{subsection.2.6.5}%
+\contentsline {chapter}{\numberline {3}RESULTADOS, CONCLUSIONES Y RECOMENDACIONES}{62}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Resultados}{62}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Prueba con usuarios finales}{62}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Conclusiones}{63}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Recomendaciones}{64}{section.3.3}%
+\contentsline {chapter}{\numberline {4}REFERENCIAS BIBLIOGRÁFICAS}{65}{chapter.4}%
+\contentsline {chapter}{\numberline {A}Apendice A}{66}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Apendice B}{68}{appendix.Alph2}%
